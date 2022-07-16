@@ -12,6 +12,7 @@ const app = express();
 app.use(express.urlencoded({ extended: false }));
 
 app.use("/api/v1", require("./routes/driversRoutes"));
+app.use("/api/v1", require("./routes/authRoutes"));
 // app.use("/api/v1", require("./routes/teamsRoutes"));
 
 app.use((req, res) => {
