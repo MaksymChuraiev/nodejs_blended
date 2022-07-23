@@ -18,7 +18,7 @@ const sendEmail = async (req) => {
 
   const options = {
     from: "goit_teacher@outlook.com", // sender address
-    to: "mchuraev1988@gmail.com", // list of receivers
+    to: "mchuraiev1988@meta.ua", // list of receivers
     subject: "Hello ✔", // Subject line
     text: "Hello world?", // plain text body
     html: mailBody, // html body
